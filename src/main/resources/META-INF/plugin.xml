@@ -19,5 +19,11 @@
 
     <actions>
         <!-- Add your actions here -->
+        <group id="DTOGenerator.Menu" text="Menu">
+            <add-to-group group-id="GenerateGroup" anchor="last"/>
+            <action id="SpringCodeGenerator.DataRepositoryGenerateAction"
+                    class="com.sivalabs.springcodegen.action.SpringDataRepositoryGenerateAction"
+                    text="Generate Spring Data Repository"/>
+        </group>
     </actions>
 </idea-plugin>
